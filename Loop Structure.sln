@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Loop Structure", "Loop Structure\Loop Structure.pyproj", "{F5883364-D648-4CB9-86EF-C1DE1F121FBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5883364-D648-4CB9-86EF-C1DE1F121FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5883364-D648-4CB9-86EF-C1DE1F121FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CCC674C-BB56-4F56-B0A6-254C88BBB927}
+	EndGlobalSection
+EndGlobal
