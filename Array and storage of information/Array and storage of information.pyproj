@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f5883364-d648-4cb9-86ef-c1de1f121fbc</ProjectGuid>
+    <ProjectGuid>c6be35aa-4fb4-4b6f-be7b-3b8124f2e600</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>Array change.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Loop Structure</Name>
-    <RootNamespace>Loop Structure</RootNamespace>
+    <Name>Array and storage of information</Name>
+    <RootNamespace>Array and storage of information</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,20 +20,21 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'dx' ">
-    <OutputPath>bin\dx\</OutputPath>
-  </PropertyGroup>
   <ItemGroup>
-    <Compile Include="As long as x times.py">
+    <Compile Include="Array change.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Factorial.py">
+    <Compile Include="Array_and_storage_of_information.py" />
+    <Compile Include="Invert printing.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Input loop.py">
+    <Compile Include="shift.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Bagher is tired but not cultured.py">
+    <Compile Include="The sum of two arrays_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="The sum of two arrays.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
