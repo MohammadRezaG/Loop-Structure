@@ -1,0 +1,13 @@
+999 999
+999 track 999
+999 output
+999 give
+999 track 999
+999 dry 10
+998 track 999
+999 output
+998 output
+998 give
+999 output
+998 output
+put an end to my misery

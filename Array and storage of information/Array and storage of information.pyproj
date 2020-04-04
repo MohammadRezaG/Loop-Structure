@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c6be35aa-4fb4-4b6f-be7b-3b8124f2e600</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Array change.py</StartupFile>
+    <StartupFile>شایان و واردات سنگ‌پا.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,16 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Array_and_storage_of_information.py" />
+    <Compile Include="Endewist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gcm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Invert printing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="londry.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="shift.py">
@@ -35,6 +44,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="The sum of two arrays.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="آسمان شکر آباد.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="اسم‌ها.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="شایان و واردات سنگ‌پا.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="مجید و ماژیک‌هاش.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
