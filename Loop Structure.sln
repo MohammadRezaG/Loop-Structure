@@ -7,6 +7,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Loop Structure", "Loop Stru
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Array and storage of information", "Array and storage of information\Array and storage of information.pyproj", "{C6BE35AA-4FB4-4B6F-BE7B-3B8124F2E600}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Full search", "Full search\Full search.pyproj", "{ACBDFFF5-F0DC-4C22-815A-C0A082B43A98}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sort", "sort\sort.pyproj", "{E5D8818E-56D8-45EE-9618-5D59642CC4A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,12 @@ Global
 		{C6BE35AA-4FB4-4B6F-BE7B-3B8124F2E600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6BE35AA-4FB4-4B6F-BE7B-3B8124F2E600}.dx|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6BE35AA-4FB4-4B6F-BE7B-3B8124F2E600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBDFFF5-F0DC-4C22-815A-C0A082B43A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBDFFF5-F0DC-4C22-815A-C0A082B43A98}.dx|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBDFFF5-F0DC-4C22-815A-C0A082B43A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D8818E-56D8-45EE-9618-5D59642CC4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D8818E-56D8-45EE-9618-5D59642CC4A8}.dx|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D8818E-56D8-45EE-9618-5D59642CC4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
