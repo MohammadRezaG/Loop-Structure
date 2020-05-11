@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c6be35aa-4fb4-4b6f-be7b-3b8124f2e600</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>شایان و واردات سنگ‌پا.py</StartupFile>
+    <StartupFile>londry.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

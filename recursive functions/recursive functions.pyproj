@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>acbdfff5-f0dc-4c22-815a-c0a082b43a98</ProjectGuid>
+    <ProjectGuid>dc1a29e5-edc1-431a-be1d-6b5d196466ae</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>باقر مخالف است.py</StartupFile>
+    <StartupFile>جست‌وجوی دودویی 2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Full search</Name>
-    <RootNamespace>Full search</RootNamespace>
-    <TestFramework>Pytest</TestFramework>
+    <Name>recursive functions</Name>
+    <RootNamespace>recursive functions</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,24 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Terrible sorting.py">
+    <Compile Include="A simple sequence.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="اوقات فراغت.py">
+    <Compile Include="جست‌وجوی دودویی 2.py" />
+    <Compile Include="جست‌وجوی دودویی.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="باقر مخالف است.py">
+    <Compile Include="رشته فیبوناچی.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="رشته تو رشته.py">
+    <Compile Include="مثلث خیام پاسکال.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="مستطیل بد و اندکی تحلیل زمانی.py">
+    <Compile Include="چاپ برعکس.py">
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="test.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

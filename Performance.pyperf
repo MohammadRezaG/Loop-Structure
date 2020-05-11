@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <StandaloneTarget>
+    <PythonInterpreter>
+      <Id>Global|PythonCore|3.7</Id>
+    </PythonInterpreter>
+    <WorkingDirectory>W:\Users\MRG\Source\Repos\Loop Structure\recursive functions</WorkingDirectory>
+    <Script>W:\Users\MRG\Source\Repos\Loop Structure\recursive functions\مثلث خیام پاسکال.py</Script>
+    <Arguments />
+  </StandaloneTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\MRG\AppData\Local\Temp\Performance_20200422.vsp</Filename>
+    </Report>
+    <Report>
+      <Filename>C:\Users\MRG\AppData\Local\Temp\Performance_20200422(1).vsp</Filename>
+    </Report>
+    <Report>
+      <Filename>C:\Users\MRG\AppData\Local\Temp\Performance_20200422(2).vsp</Filename>
+    </Report>
+    <Report>
+      <Filename>C:\Users\MRG\AppData\Local\Temp\Performance_20200422(3).vsp</Filename>
+    </Report>
+  </Reports>
+  <UseVTune>false</UseVTune>
+</ProfilingTarget>
