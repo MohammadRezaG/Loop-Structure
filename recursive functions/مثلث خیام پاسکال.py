@@ -3,8 +3,11 @@
 #3.         output "C(i , j) "
 #4.     go to the next line of output
 import sys,datetime
+#from numba import jit
+from timeit import default_timer as timer
 sys.setrecursionlimit(10**8)
 cl=[]
+#@jit
 def c(i,j):
     if len(cl)<=i:
         cl.append([0]*(i+1))
@@ -16,10 +19,11 @@ def c(i,j):
             cl[i][j]=c(i-1,j)+c( i-1,j-1)
         return cl[i][j]
 bche=True
+
 def inputc():
     mrgt=10
     n=int(input('enter a number : \n'))
-    time=datetime.datetime.now()
+    start = timer()
     if n==0:
         bche=False
         return 0
@@ -48,14 +52,13 @@ def inputc():
             except :
                 l.append(t)
                 j+=1
-        #if i>=mrgt:
-        #    print(*l,' ',end='')
-        #    print()
-        #    mrgt+=100
+        if i>=mrgt:
+            #print(*l,' ',end='')
+            #print()
+            mrgt+=100
         #print(*l,' ',end='')
         #print()
         b=True
-    print((datetime.datetime.now()-time))
+    print(timer()-start) 
 while(bche):
-
     inputc()

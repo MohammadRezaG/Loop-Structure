@@ -2,17 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f5883364-d648-4cb9-86ef-c1de1f121fbc</ProjectGuid>
+    <ProjectGuid>3871fec6-8100-47c1-a05b-a04ef33ee71c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>minesweeper.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Loop Structure</Name>
-    <RootNamespace>Loop Structure</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.8</InterpreterId>
+    <Name>Optional_exercises</Name>
+    <RootNamespace>Optional_exercises</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.9</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,25 +21,11 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'dx' ">
-    <OutputPath>bin\dx\</OutputPath>
-  </PropertyGroup>
   <ItemGroup>
-    <Compile Include="As long as x times.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Factorial.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Input loop.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Bagher is tired but not cultured.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="minesweeper.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.8" />
+    <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "sort", "sort\sort.pyproj", 
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "recursive functions", "recursive functions\recursive functions.pyproj", "{DC1A29E5-EDC1-431A-BE1D-6B5D196466AE}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Optional_exercises", "Optional_exercises\Optional_exercises.pyproj", "{3871FEC6-8100-47C1-A05B-A04EF33EE71C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,9 @@ Global
 		{DC1A29E5-EDC1-431A-BE1D-6B5D196466AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC1A29E5-EDC1-431A-BE1D-6B5D196466AE}.dx|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC1A29E5-EDC1-431A-BE1D-6B5D196466AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3871FEC6-8100-47C1-A05B-A04EF33EE71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3871FEC6-8100-47C1-A05B-A04EF33EE71C}.dx|Any CPU.ActiveCfg = Debug|Any CPU
+		{3871FEC6-8100-47C1-A05B-A04EF33EE71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
